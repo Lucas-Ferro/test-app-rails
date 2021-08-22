@@ -1,0 +1,78 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<h2> Formulário de Cadastro </h2>
+
+	<p> Preencha os campos a seguir corretamente: </p>
+	
+	<table>
+		<tr>
+			<td> Usuário: </td>
+			<td> <input type="text" placeholder="Usuário" size="15"> </td>
+		</tr>
+		<tr>
+			<td> Senha: </td>
+			<td> <input type="password" placeholder="Senha" size="15"> </td>
+		</tr>
+		<tr>
+			<td> Nome: </td>
+			<td> <input type="text" placeholder="Nome completo" size="30"> </td> </td>
+		</tr>
+	</table>
+
+	<br>
+	
+	<table>
+		<tr> 
+			<td> ----------------------------------------------------------- </td>
+		</tr>
+		<tr>
+			<td> Agora, algumas perguntas sobre a saga de filmes: </td>
+		</tr>
+	</table>
+	
+	<br>
+
+	<table>
+		Selecione o(s) seu(s) filme(s) da saga favorito(s): <br> <br>
+		<tr>
+			<td><input type="checkbox"> Sorcerers Stone</td>
+			<td><input type="checkbox"> Chamber of Secrets</td>
+			<td><input type="checkbox"> Prisioner of Azkabam</td>
+			<td><input type="checkbox"> The Goblet of Fire</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox"> The Order of the Phoenix</td>
+			<td><input type="checkbox"> The Half-blood Prince</td>
+			<td><input type="checkbox"> Deathly Hallows (1)</td>
+			<td><input type="checkbox"> Deathly Hallows (2)</td>	
+		</tr>
+	</table>
+
+	<br> Vocês costuma assistir todos os filmes em sequência?
+		<input type="radio" id="Sim" name="seq" value="Sim">
+		<label for="Sim">Sim</label>
+		<input type="radio" id="Não" name="seq" value="Não">
+		<label for="Não">Não</label>
+	<br>          
+	<br> Quantas vezes já assistiu a todos os filmes? <select>
+		<option> 1x </option>
+		<option> 2x </option>
+		<option> 3x </option>
+		<option> 4x </option>
+		<option> 5x ou mais </option>
+	</select>
+
+	<br>
+	<br> Escreva sobre seu filme preferido:
+	<br> <textarea name="opinião" id="op" cols="40" rows="10"></textarea>
+
+	<br> <br> <button onclick="location.href = '/index.html'" id="Salvar" class="salvar" >Salvar</button>
+
+</body>
+
+</html>
